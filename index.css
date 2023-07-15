@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins-Light;
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(./fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Praise-Regular;
+    src: url(./fonts/Praise-Regular.ttf);
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Poppins-Light;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Poppins-Bold;
+}
+
+.cta {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.8rem 2.5rem;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cta:hover {
+    opacity: 0.75;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
+
+header .logo {
+    font-family: Praise-Regular;
+    font-size: 40px;
+}
+
+.showcase {
+    padding: 4rem 1.25rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 4rem;
+}
+
+.showcase h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.showcase p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: #595959;
+}
+
+.showcase ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    header .logo {
+        font-size: 45px;
+    }
+
+    .showcase h1 {
+        font-size: 3rem;
+    }
+
+    .showcase {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .showcase article {
+        flex: 1;
+    }
+    .showcase ul li a img {
+        width: 2rem;
+    
+}
+
+@media (min-width: 1024px) {
+    .showcase {
+        height: 80vh;
+    }
+    .showcase h1 {
+        font-size: 3.5rem;
+    }
+    .showcase p {
+        font-size: 1.5rem;
+    }
+    .showcase ul li a img {
+        width: 2.5rem;
+    }
+}
