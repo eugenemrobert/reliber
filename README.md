@@ -1,4 +1,4 @@
-## Landing page design from Figma to CSS
+## Landing page Figma design to CSS
 
 ## Colors
 
@@ -10,7 +10,7 @@ Background Color: #F2F2F2
 
 Poppins, Praise - Check fonts folder
 
-## View on Netlify
+## Netlify
 
 https://eugenemrobert-reliber.netlify.app/
 
