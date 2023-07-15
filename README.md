@@ -1,3 +1,5 @@
+## Landing page design from Figma to CSS
+
 ## Colors
 
 Paragraphs - #595959
@@ -11,3 +13,7 @@ Poppins, Praise - Check fonts folder
 ## View on Netlify
 
 https://eugenemrobert-reliber.netlify.app/
+
+## Figma
+
+https://bit.ly/figma-reliber
